@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Big Brother Naija Lockdown 2020 Fans Voting Platform</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <!--<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>-->
+        <script src="js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<style>
+		.imgI {
+  //border-radius: 45%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+		</style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a id="LogoIn" class="navbar-brand js-scroll-trigger" href="#page-top">Start Voting</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">House Mates</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar imgI mb-5" src="assets/img/avataaars.jpg" alt="" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">House Mates Voting<br><small>This is <span style="color:red;">NOT</span> the original platform</small></h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>  
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">This platform is <span style="color:red;">NOT</span> affiliated to the original bbnaijalockdown 2020 voting platform</p>
+                <p class="masthead-subheading font-weight-light mb-0">As a member of Shalaye FC, I decided to create this platform so we can actually follow up the votes count before the Original Big Brother Votes are out.</p><br>
+                <p class="masthead-subheading font-weight-light mb-0">This platform can help us predict which house mates have the highest and lowest vote weekly, since real fans will also be voting here. So we can keep track of what's really going on in the original platform.</p><br>
+                <p class="masthead-subheading font-weight-light mb-0">This platform promise to be exciting and fun since you are in control at all time. Votes are counted immediately and we can always link you to the original voting site @ <a style="color:#ffffff;" href="https://africamagic.dstv.com/show/big-brother-nigeria-s5" target="_blank">https://africamagic.dstv.com/show/big-brother-nigeria-s5</a></p><br>
+                <p class="masthead-subheading font-weight-light mb-0">You can un-subscribe from this platform anytime you want.</p><br>
+                <p class="masthead-subheading font-weight-light mb-0">Las Las, we are all here for the shalaye and the fun and most importantly you can grow your social media followers with this platform new feature that will be added soon.</p><br><br>
+                <p class="masthead-subheading font-weight-light mb-0"><button class="btn btn-warning" id="BBRegistration"  style="display:none;">Register</button> <button class="btn btn-danger" id="BBLogin"  style="display:none;">Login</button> <button class="btn btn-danger" id="BBLogout" style="display:none;">Logout</button></p>
+                <p class="masthead-subheading font-weight-light mb-0" style="background-color:#ffffff;">
+                        <form id="RegisterVoters" name="RegisterVoters" action="" method="POST" style="display:none;">
+						
+						<div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email Address</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" />
+                                    <p id="emailHer" class="help-block text-danger"></p>
+                                </div>
+                            </div>
+							<br>
+							<div class="form-group"><button class="btn btn-primary btn-xl" id="sendRegisterButton" type="submit">Register</button></div>
+							<button id="sendRegisterLoading" class="btn btn-warning btn-xl" disabled="" style="display:none;">
+							  <i class="fa fa-spinner fa-spin"></i> Loading
+							</button>
+							<p id="sendRegisterEmail" style="color:#afe8dc; display:none;">
+							  An access code has been sent to your email. Check your inbox/all mail/spam folder. <span id="sendRegisterEmailClick" class="softlinker" style="text-decoration: underline;"> Resend Email</span> <span id="sendRegisterEmailUnclick"></span><span id="sendRegisterEmailCheck"></span>
+							</p>
+							</form>
+							
+							 <form id="LoginVoters" name="LoginVoters" action="" method="POST" style="display:none;">
+							 <br>
+							 <p id="SignHer" class="help-block text-danger"></p>
+							
+						<div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email Address</label>
+                                    <input class="form-control" id="emailL" name="emailL" type="emailL" placeholder="Email Address" required="required" />
+                                    <p id="emailLHer" class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Code</label>
+                                    <input class="form-control" id="codeL" name="codeL" type="password" placeholder="Code" required="required" />
+                                    <p id="codeLHer" class="help-block text-danger"></p>
+                                </div>
+                            </div>
+							<br>
+							<div class="form-group"><button class="btn btn-primary btn-xl" id="sendLoginButton" type="submit">Login</button></div>
+							<button id="sendLoginLoading" class="btn btn-warning btn-xl" disabled="" style="display:none;">
+							  <i class="fa fa-spinner fa-spin"></i> Logging In
+							</button>
+							<p id="SignFHer" class="softlinker" style="color:#fefefe; text-decoration:underline;"> </p>
+							</form>
+							
+							<form id="ForgetCodeL" name="ForgetCodeL" action="" method="POST" style="display:none;">
+						
+						<div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email Address</label>
+                                    <input class="form-control" id="emailFg" type="emailFg" placeholder="Email Address" required="required" />
+                                    <p id="emailFgHer" class="help-block text-danger"></p>
+                                </div>
+                            </div>
+							<br>
+							<div class="form-group"><button class="btn btn-primary btn-xl" id="sendRetrieveButton" type="submit">Reset Code</button></div>
+							<button id="retrievCodeLoading" class="btn btn-warning btn-xl" disabled="" style="display:none;">
+							  <i class="fa fa-spinner fa-spin"></i> Loading
+							</button>
+							<p id="retrievCodeMsg" style="color:#afe8dc;"></span>
+							</p><!--
+							<p id="retrievCodeEmail" style="color:#afe8dc; display:none;">
+							  An access code has been sent to your email. Check your inbox/all mail/spam folder. <span id="retrievCodeEmailClick" class="softlinker" style="text-decoration: underline;"> Resend Email</span> <span id="retrievCodeEmailUnclick"></span>
+							</p>-->
+							</form>
+				</p>
+				
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">House Mates</h2><br>
+                <p id="HouseMateForVotedTWeek" class="text-center softlinker text-uppercase text-secondary mb-0" style="text-decoration: underline;">See Results</p>
+                <p id="HouseMateVoteContinue" class="text-center softlinker text-uppercase text-secondary mb-0" style="text-decoration: underline; display:none;">Back To Voting</p>
+				<br>
+                <h5 id="HouseMateForVotedTWeekCount" class="text-center  text-uppercase text-secondary mb-0" ></h5>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+				<h1 id="HouseSpin" class="page-section-heading text-center text-uppercase"><i class="fa fa-spinner fa-spin"></i> </h1> 
+                
+					<div class="row"  id="HouseMateForVotedTw"></div>
+					<div class="row"  id="HouseMateForVote"></div>
+                
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto"><p class="lead"><b>WETIN DE SUP FOR HERE?</b><br><br>This platform was created for those that like Shalaye.<br> With this platform we could be able to predict the house mates that have more votes, since bbnaija2020 voting platform does not show us the voting result until after the eviction or the show. This platform will actually be showing you votes in real-time once you vote.</p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead"><b>WHY DO I NEED EMAIL TO VOTE?</b><br><br>To limit alot of random vote, your votes are locked to your email.<br>However you need to provide your email only once and a code will be sent to your email. <br> With this code you can be able to vote ten(10) times daily till Thursday midnight.<br>
+					Your email won't be revealed to anyone and We promise not to spam you. <br> You can opt-out of this platform at anytime.<br>
+					An email will only be sent once to you when you register.
+					<br><br>
+					<b>WHY TEN TIMES A DAY VOTE?</b><br><br>
+					As we already know, the ORIGINAL bbnaija 2020 platform allows 100 votes per sim card for a week, but this platform will accept ten(10) vote from each email per day, and the voting closes every Thursday midnight.<br> Maybe latter we fit consider other options latter.
+					</p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <!--<button class="btn btn-xl btn-outline-light" >
+                        <i class="fas fa-envelope mr-2"></i>
+                        Sign Up your email for one time Verification.
+                    </button>-->
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact"><!--
+            <div class="container">
+                <!-- Contact Section Heading--><!--
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact<br><small>In case you get wetin you wan yarn us about this platform, You fit let us know here.</small></h2>
+                <!-- Icon Divider--><!--
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form--><!--
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.--><!--
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Name</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email Address</label>
+                                    <input class="form-control" id="emailC" type="emailC" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Email</h4>
+                        <p class="lead mb-0">
+                            bbnaija@memesafrika.com.ng
+                            <br />
+                           
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Coming Soon</h4>
+                        <p class="lead mb-0">
+                           Expect more exciting features from us soon.
+                            .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small><!--Copyright ©--> On behalf of Shalaye FC 2020</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Portfolio Modals-->
+       
+        <!-- Portfolio Modal 6--><!--
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title--><!--
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
+                                    <!-- Icon Divider--><!--
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><!--
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
+                                    <!-- Portfolio Modal - Text--><!--
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/search.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
