@@ -5,13 +5,13 @@ var clov_idr = getCookie("clov_idr");
 var auth_cont = getCookie("_auth_cont")
 $.ajax({
     type: "POST",
-    url: "https://sabaccess.com/application/application.php",
+    url: "https://sabaccess.com/application/",
     dataType: 'json',
     data: {uphqdqukem: uphqdqukem},
     success: function(Housemates){
         $.ajax({
             type: "POST",
-            url: "https://sabaccess.com/application/application.php",
+            url: "https://sabaccess.com/application/",
             dataType: 'json',
             data: {qyiievrcpw: qyiievrcpw, clov_idr: clov_idr, auth_cont: auth_cont},
             success: function(HouseVoters){
@@ -242,7 +242,7 @@ function RegVotersIn(val){
 	
 	$.ajax({
 		type: "POST",
-		url: "https://sabaccess.com/application/application.php", 
+		url: "https://sabaccess.com/application/", 
 		data: {email: email },
 		success: function(RegVotersData){
             $("#emailHer").html(RegVotersData);
@@ -312,7 +312,7 @@ function LogVotersIn(val){
 	
 	$.ajax({
 		type: "POST",
-		url: "https://sabaccess.com/application/application.php", 
+		url: "https://sabaccess.com/application/", 
 		data: {emailL: emailL, codeL: codeL },
 		success: function(LogVotersData){
 			$("#SignHer").html(LogVotersData);
@@ -332,7 +332,7 @@ function LogOutVoters(){
     var xriodqryycc = "xriodqryycc";
     $.ajax({
 		type: "POST",
-		url: "https://sabaccess.com/application/application.php", 
+		url: "https://sabaccess.com/application/", 
 		data: {xriodqryycc: xriodqryycc },
 		success: function(LogOutVotersData){
 			//$("#SignHer").html(LogOutVotersData);  
@@ -348,7 +348,7 @@ function VoteHouseMates(votesishmates){
     document.getElementById("send"+votesishmates+"vote").innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
     $.ajax({
 		type: "POST",
-		url: "https://sabaccess.com/application/application.php", 
+		url: "https://sabaccess.com/application/", 
 		data: {hmnzjgjvddw: hmnzjgjvddw },
 		success: function(VotingMatesData){
             $("#JetVoters"+votesishmates).html(VotingMatesData);  
@@ -367,13 +367,13 @@ function VotedshmTweek(){
     $("#HouseSpin").show();
     $.ajax({
 		type: "POST",
-        url: "https://sabaccess.com/application/application.php", 
+        url: "https://sabaccess.com/application/", 
         dataType: 'json',
 		data: {yowfgfcgjzz: yowfgfcgjzz },
 		success: function(VotedHMTweekData){
             $.ajax({
                 type: "POST",
-                url: "https://sabaccess.com/application/application.php",
+                url: "https://sabaccess.com/application/",
                 data: {xcjqaszylshfpm: xcjqaszylshfpm },
                 success: function(VotedHMTweekTTData){
                     //$("#SignHer").html(LogVotersData);
@@ -413,7 +413,7 @@ function resendOnReg(){
     var pwhlumdycul = "pwhlumdycul";
     $.ajax({
 		type: "POST",
-		url: "https://sabaccess.com/application/application.php", 
+		url: "https://sabaccess.com/application/", 
 		data: {pwhlumdycul: pwhlumdycul },
 		success: function(ResendRegsData){
             $("#sendRegisterEmailCheck").html(ResendRegsData);   
@@ -458,7 +458,7 @@ function ResetOwnLaMail(val){
 	
 	$.ajax({
 		type: "POST",
-		url: "https://sabaccess.com/application/application.php", 
+		url: "https://sabaccess.com/application/", 
 		data: {emailFg: emailFg },
 		success: function(RegVotersData){
             $("#emailFgHer").html(RegVotersData);
