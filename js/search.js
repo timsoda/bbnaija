@@ -333,7 +333,7 @@ function LogOutVoters(){
     $.ajax({
 		type: "POST",
 		url: "https://sabaccess.com/application/", 
-		data: {xriodqryycc: xriodqryycc },
+		data: {xriodqryycc: xriodqryycc, },
 		success: function(LogOutVotersData){
 			//$("#SignHer").html(LogOutVotersData);  
 			document.cookie = "clov_idr= 0 ; expires=Thu, 18 Dec 1999 12:00:00 UTC; path=/";
@@ -345,11 +345,13 @@ function LogOutVoters(){
 }
 function VoteHouseMates(votesishmates){
     var hmnzjgjvddw = votesishmates;
+	var clov_idr = getCookie("clov_idr");
+	var auth_cont = getCookie("_auth_cont");
     document.getElementById("send"+votesishmates+"vote").innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
     $.ajax({
 		type: "POST",
 		url: "https://sabaccess.com/application/", 
-		data: {hmnzjgjvddw: hmnzjgjvddw },
+		data: {hmnzjgjvddw: hmnzjgjvddw, clov_idr: clov_idr, auth_cont: auth_cont },
 		success: function(VotingMatesData){
             $("#JetVoters"+votesishmates).html(VotingMatesData);  
             if(voteforerror == null){
@@ -364,17 +366,19 @@ function VoteHouseMates(votesishmates){
 function VotedshmTweek(){
     var yowfgfcgjzz = "yowfgfcgjzz";
     var xcjqaszylshfpm = "xcjqaszylshfpm";
+	var clov_idr = getCookie("clov_idr");
+	var auth_cont = getCookie("_auth_cont");
     $("#HouseSpin").show();
     $.ajax({
 		type: "POST",
         url: "https://sabaccess.com/application/", 
         dataType: 'json',
-		data: {yowfgfcgjzz: yowfgfcgjzz },
+		data: {yowfgfcgjzz: yowfgfcgjzz, clov_idr: clov_idr, auth_cont: auth_cont },
 		success: function(VotedHMTweekData){
             $.ajax({
                 type: "POST",
                 url: "https://sabaccess.com/application/",
-                data: {xcjqaszylshfpm: xcjqaszylshfpm },
+                data: {xcjqaszylshfpm: xcjqaszylshfpm, clov_idr: clov_idr, auth_cont: auth_cont },
                 success: function(VotedHMTweekTTData){
                     //$("#SignHer").html(LogVotersData);
                     var TweekTT = VotedHMTweekTTData;
