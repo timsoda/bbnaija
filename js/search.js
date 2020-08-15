@@ -336,6 +336,9 @@ function LogOutVoters(){
 		data: {xriodqryycc: xriodqryycc },
 		success: function(LogOutVotersData){
 			//$("#SignHer").html(LogOutVotersData);  
+			document.cookie = "clov_idr= 0 ; expires=Thu, 18 Dec 1999 12:00:00 UTC; path=/";
+			document.cookie = "_auth_cont= 0; expires=Thu, 18 Dec 1999 12:00:00 UTC; path=/";
+			window.location.reload();
 		}
 		 
 	});
