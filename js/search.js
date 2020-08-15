@@ -1,1 +1,514 @@
-var _0xf9ad=["\x75\x70\x68\x71\x64\x71\x75\x6B\x65\x6D","\x71\x79\x69\x69\x65\x76\x72\x63\x70\x77","\x63\x6C\x6F\x76\x5F\x69\x64\x72","\x5F\x61\x75\x74\x68\x5F\x63\x6F\x6E\x74","\x50\x4F\x53\x54","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x61\x62\x61\x63\x63\x65\x73\x73\x2E\x63\x6F\x6D\x2F\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F","\x6A\x73\x6F\x6E","\x6C\x65\x6E\x67\x74\x68","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x4C\x6F\x67\x6F\x49\x6E","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x53\x74\x61\x72\x74\x20\x56\x6F\x74\x69\x6E\x67\x20","\x76\x6F\x74\x65\x72\x45","\x68\x69\x64\x65","\x23\x42\x42\x52\x65\x67\x69\x73\x74\x72\x61\x74\x69\x6F\x6E","\x23\x42\x42\x4C\x6F\x67\x69\x6E","\x73\x68\x6F\x77","\x23\x42\x42\x4C\x6F\x67\x6F\x75\x74","\x23\x48\x6F\x75\x73\x65\x4D\x61\x74\x65\x46\x6F\x72\x56\x6F\x74\x65\x64\x54\x57\x65\x65\x6B","\x66\x6F\x72\x45\x61\x63\x68","\x23\x48\x6F\x75\x73\x65\x53\x70\x69\x6E","","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6C\x2D\x6D\x64\x2D\x36\x20\x63\x6F\x6C\x2D\x6C\x67\x2D\x34\x20\x6D\x62\x2D\x35\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F\x2D\x69\x74\x65\x6D\x20\x6D\x78\x2D\x61\x75\x74\x6F\x22\x20\x64\x61\x74\x61\x2D\x74\x6F\x67\x67\x6C\x65\x3D\x22\x6D\x6F\x64\x61\x6C\x22\x20\x64\x61\x74\x61\x2D\x74\x61\x72\x67\x65\x74\x3D\x22\x23\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F","\x6E\x61\x6D\x65","\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F\x2D\x69\x74\x65\x6D\x2D\x63\x61\x70\x74\x69\x6F\x6E\x20\x64\x2D\x66\x6C\x65\x78\x20\x61\x6C\x69\x67\x6E\x2D\x69\x74\x65\x6D\x73\x2D\x63\x65\x6E\x74\x65\x72\x20\x6A\x75\x73\x74\x69\x66\x79\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x2D\x63\x65\x6E\x74\x65\x72\x20\x68\x2D\x31\x30\x30\x20\x77\x2D\x31\x30\x30\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F\x2D\x69\x74\x65\x6D\x2D\x63\x61\x70\x74\x69\x6F\x6E\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x20\x74\x65\x78\x74\x2D\x63\x65\x6E\x74\x65\x72\x20\x74\x65\x78\x74\x2D\x77\x68\x69\x74\x65\x22\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x63\x68\x65\x63\x6B\x20\x66\x61\x2D\x33\x78\x22\x3E\x3C\x2F\x69\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x2F\x64\x69\x76\x3E","\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x2D\x66\x6C\x75\x69\x64\x20\x69\x6D\x67\x49\x22\x20\x73\x72\x63\x3D\x22\x68\x6D\x73\x2F","\x69\x6D\x61\x67\x65","\x22\x20\x61\x6C\x74\x3D\x22","\x22\x20\x2F\x3E","\x3C\x63\x65\x6E\x74\x65\x72\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x73\x6F\x63\x69\x61\x6C\x22\x3E\x56\x6F\x74\x65\x20","\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x3C\x2F\x63\x65\x6E\x74\x65\x72\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F\x2D\x6D\x6F\x64\x61\x6C\x20\x6D\x6F\x64\x61\x6C\x20\x66\x61\x64\x65\x22\x20\x69\x64\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F","\x22\x20\x74\x61\x62\x69\x6E\x64\x65\x78\x3D\x22\x2D\x31\x22\x20\x72\x6F\x6C\x65\x3D\x22\x64\x69\x61\x6C\x6F\x67\x22\x20\x61\x72\x69\x61\x2D\x6C\x61\x62\x65\x6C\x6C\x65\x64\x62\x79\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F\x4D\x6F\x64\x61\x6C\x31\x4C\x61\x62\x65\x6C\x22\x20\x61\x72\x69\x61\x2D\x68\x69\x64\x64\x65\x6E\x3D\x22\x74\x72\x75\x65\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x61\x6C\x2D\x64\x69\x61\x6C\x6F\x67\x20\x6D\x6F\x64\x61\x6C\x2D\x78\x6C\x22\x20\x72\x6F\x6C\x65\x3D\x22\x64\x6F\x63\x75\x6D\x65\x6E\x74\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x61\x6C\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x22\x3E","\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6C\x6F\x73\x65\x22\x20\x74\x79\x70\x65\x3D\x22\x62\x75\x74\x74\x6F\x6E\x22\x20\x64\x61\x74\x61\x2D\x64\x69\x73\x6D\x69\x73\x73\x3D\x22\x6D\x6F\x64\x61\x6C\x22\x20\x61\x72\x69\x61\x2D\x6C\x61\x62\x65\x6C\x3D\x22\x43\x6C\x6F\x73\x65\x22\x3E","\x3C\x73\x70\x61\x6E\x20\x61\x72\x69\x61\x2D\x68\x69\x64\x64\x65\x6E\x3D\x22\x74\x72\x75\x65\x22\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x74\x69\x6D\x65\x73\x22\x3E\x3C\x2F\x69\x3E\x3C\x2F\x73\x70\x61\x6E\x3E","\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x61\x6C\x2D\x62\x6F\x64\x79\x20\x74\x65\x78\x74\x2D\x63\x65\x6E\x74\x65\x72\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x6F\x77\x20\x6A\x75\x73\x74\x69\x66\x79\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x2D\x63\x65\x6E\x74\x65\x72\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6C\x2D\x6C\x67\x2D\x38\x22\x3E","\x3C\x68\x32\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F\x2D\x6D\x6F\x64\x61\x6C\x2D\x74\x69\x74\x6C\x65\x20\x74\x65\x78\x74\x2D\x73\x65\x63\x6F\x6E\x64\x61\x72\x79\x20\x74\x65\x78\x74\x2D\x75\x70\x70\x65\x72\x63\x61\x73\x65\x20\x6D\x62\x2D\x30\x22\x20\x69\x64\x3D\x22\x70\x6F\x72\x74\x66\x6F\x6C\x69\x6F\x4D\x6F\x64\x61\x6C\x31\x4C\x61\x62\x65\x6C\x22\x3E","\x3C\x2F\x68\x32\x3E","\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x76\x69\x64\x65\x72\x2D\x63\x75\x73\x74\x6F\x6D\x22\x3E","\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x76\x69\x64\x65\x72\x2D\x63\x75\x73\x74\x6F\x6D\x2D\x6C\x69\x6E\x65\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x76\x69\x64\x65\x72\x2D\x63\x75\x73\x74\x6F\x6D\x2D\x69\x63\x6F\x6E\x22\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x73\x74\x61\x72\x22\x3E\x3C\x2F\x69\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x69\x76\x69\x64\x65\x72\x2D\x63\x75\x73\x74\x6F\x6D\x2D\x6C\x69\x6E\x65\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x2D\x66\x6C\x75\x69\x64\x20\x72\x6F\x75\x6E\x64\x65\x64\x20\x6D\x62\x2D\x35\x22\x20\x73\x72\x63\x3D\x22\x68\x6D\x73\x2F","\x3C\x66\x6F\x72\x6D\x20\x69\x64\x3D\x22\x56\x6F\x74\x65","\x22\x20\x6E\x61\x6D\x65\x3D\x22\x56\x6F\x74\x65","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x6F\x72\x6D\x2D\x67\x72\x6F\x75\x70\x22\x3E\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x70\x72\x69\x6D\x61\x72\x79\x20\x62\x74\x6E\x2D\x78\x6C\x22\x20\x69\x64\x3D\x22\x73\x65\x6E\x64","\x76\x6F\x74\x65\x22\x20\x74\x79\x70\x65\x3D\x22\x73\x75\x62\x6D\x69\x74\x22\x3E\x56\x6F\x74\x65\x20","\x3C\x2F\x62\x75\x74\x74\x6F\x6E\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x2F\x66\x6F\x72\x6D\x3E","\x3C\x68\x34\x20\x69\x64\x3D\x22\x46\x6F\x47\x75\x56\x6F\x74\x65\x72\x73","\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x65\x78\x74\x2D\x64\x61\x6E\x67\x65\x72\x22\x3E\x3C\x2F\x68\x34\x3E","\x3C\x68\x34\x20\x69\x64\x3D\x22\x4A\x65\x74\x56\x6F\x74\x65\x72\x73","\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x65\x78\x74\x2D\x73\x75\x63\x63\x65\x73\x73\x22\x3E\x3C\x2F\x68\x34\x3E","\x3C\x68\x32\x3E\x53\x4D\x53\x20\x56\x6F\x74\x65\x20","\x3C\x62\x72\x3E\x3C\x73\x6D\x61\x6C\x6C\x3E\x54\x4F\x3C\x2F\x73\x6D\x61\x6C\x6C\x3E\x3C\x62\x72\x3E\x33\x32\x30\x35\x32\x3C\x2F\x68\x32\x3E","\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x62\x2D\x35\x22\x3E\x52\x65\x6D\x65\x6D\x62\x65\x72\x20\x6F\x6E\x65\x20\x6F\x66\x20\x74\x68\x65\x20\x70\x75\x72\x70\x6F\x73\x65\x20\x6F\x66\x20\x56\x6F\x74\x69\x6E\x67\x20\x69\x6E\x20\x74\x68\x69\x73\x20\x70\x6C\x61\x74\x66\x6F\x72\x6D\x20\x69\x73\x20\x6D\x6F\x73\x74\x6C\x79\x20\x74\x6F\x20\x73\x65\x65\x20\x74\x68\x65\x20\x66\x61\x6E\x73\x20\x70\x72\x65\x66\x65\x72\x65\x6E\x63\x65\x2E\x20\x54\x6F\x20\x61\x63\x74\x75\x61\x6C\x6C\x79\x20\x76\x6F\x74\x65\x20\x66\x6F\x72\x20","\x20\x3C\x62\x3E\x53\x4D\x53\x20","\x20\x74\x6F\x20\x33\x32\x30\x35\x32\x3C\x2F\x62\x3E\x20\x3C\x62\x72\x3E\x4F\x52\x3C\x62\x72\x3E\x20\x67\x6F\x74\x6F\x20\x3C\x61\x20\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x66\x72\x69\x63\x61\x6D\x61\x67\x69\x63\x2E\x64\x73\x74\x76\x2E\x63\x6F\x6D\x2F\x73\x68\x6F\x77\x2F\x62\x69\x67\x2D\x62\x72\x6F\x74\x68\x65\x72\x2D\x6E\x69\x67\x65\x72\x69\x61\x2D\x73\x35\x22\x20\x74\x61\x72\x67\x65\x74\x3D\x22\x5F\x62\x6C\x61\x6E\x6B\x22\x3E\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x66\x72\x69\x63\x61\x6D\x61\x67\x69\x63\x2E\x64\x73\x74\x76\x2E\x63\x6F\x6D\x2F\x73\x68\x6F\x77\x2F\x62\x69\x67\x2D\x62\x72\x6F\x74\x68\x65\x72\x2D\x6E\x69\x67\x65\x72\x69\x61\x2D\x73\x35\x3C\x2F\x61\x3E\x20\x74\x6F\x20\x76\x6F\x74\x65\x20\x66\x6F\x72\x20\x79\x6F\x75\x72\x20\x66\x61\x76\x6F\x75\x72\x69\x74\x65\x20\x68\x6F\x75\x73\x65\x20\x6D\x61\x74\x65\x73\x3C\x2F\x70\x3E","\x3C\x62\x75\x74\x74\x6F\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x70\x72\x69\x6D\x61\x72\x79\x22\x20\x64\x61\x74\x61\x2D\x64\x69\x73\x6D\x69\x73\x73\x3D\x22\x6D\x6F\x64\x61\x6C\x22\x3E","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x73\x20\x66\x61\x2D\x74\x69\x6D\x65\x73\x20\x66\x61\x2D\x66\x77\x22\x3E\x3C\x2F\x69\x3E","\x43\x6C\x6F\x73\x65\x20\x57\x69\x6E\x64\x6F\x77","\x61\x70\x70\x65\x6E\x64","\x23\x48\x6F\x75\x73\x65\x4D\x61\x74\x65\x46\x6F\x72\x56\x6F\x74\x65","\x73\x75\x62\x6D\x69\x74","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x6C\x69\x76\x65\x76\x6F\x74\x65\x45","\x63\x6C\x6F\x73\x65","\x23\x56\x6F\x74\x65","\x46\x6F\x47\x75\x56\x6F\x74\x65\x72\x73","\x56\x6F\x74\x69\x6E\x67\x20\x69\x73\x20\x43\x6C\x6F\x73\x65\x64\x2E\x20\x52\x65\x73\x75\x6D\x65\x73\x20\x4D\x6F\x6E\x64\x61\x79\x2C\x20\x31\x30\x70\x6D","\x52\x65\x67\x69\x73\x74\x65\x72\x20\x77\x69\x74\x68\x20\x61\x20\x76\x61\x6C\x69\x64\x20\x65\x6D\x61\x69\x6C\x20\x74\x6F\x20\x76\x6F\x74\x65","\x6F\x6E","\x61\x6A\x61\x78","\x63\x6C\x69\x63\x6B","\x23\x52\x65\x67\x69\x73\x74\x65\x72\x56\x6F\x74\x65\x72\x73","\x23\x4C\x6F\x67\x69\x6E\x56\x6F\x74\x65\x72\x73","\x23\x46\x6F\x72\x67\x65\x74\x43\x6F\x64\x65\x4C","\x23\x73\x65\x6E\x64\x52\x65\x67\x69\x73\x74\x65\x72\x45\x6D\x61\x69\x6C\x43\x6C\x69\x63\x6B","\x30","\x73\x65\x6E\x64\x52\x65\x67\x69\x73\x74\x65\x72\x45\x6D\x61\x69\x6C\x55\x6E\x63\x6C\x69\x63\x6B","\x3A","\x3A\x30\x30","\x76\x61\x6C\x75\x65","\x65\x6D\x61\x69\x6C\x4C","\x65\x6D\x61\x69\x6C\x46\x67","\x23\x53\x69\x67\x6E\x46\x48\x65\x72","\x72\x65\x6C\x6F\x61\x64","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x23\x48\x6F\x75\x73\x65\x4D\x61\x74\x65\x56\x6F\x74\x65\x43\x6F\x6E\x74\x69\x6E\x75\x65","\x72\x65\x61\x64\x79","\x65\x6D\x61\x69\x6C","\x52\x65\x67\x69\x73\x74\x65\x72\x56\x6F\x74\x65\x72\x73","\x65\x6D\x61\x69\x6C\x48\x65\x72","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x74\x65\x72\x20\x79\x6F\x75\x72\x20\x65\x6D\x61\x69\x6C\x20\x61\x64\x64\x72\x65\x73\x73","\x40","\x73\x70\x6C\x69\x74","\x74\x65\x73\x74","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x74\x65\x72\x20\x61\x20\x76\x61\x6C\x69\x64\x20\x65\x6D\x61\x69\x6C\x20\x61\x64\x64\x72\x65\x73\x73","\x67\x6D\x61\x69\x6C\x2E\x63\x6F\x6D","\x79\x61\x68\x6F\x6F\x2E\x63\x6F\x6D","\x6F\x75\x74\x6C\x6F\x6F\x6B\x2E\x63\x6F\x6D","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x53\x6F\x72\x72\x79\x2C\x20\x45\x6D\x61\x69\x6C\x73\x20\x61\x6C\x6C\x6F\x77\x65\x64\x20\x61\x72\x65\x20\x67\x6D\x61\x69\x6C\x2C\x20\x79\x61\x68\x6F\x6F\x20\x61\x6E\x64\x20\x6F\x75\x74\x6C\x6F\x6F\x6B\x2E","\x73\x65\x6E\x64\x52\x65\x67\x69\x73\x74\x65\x72\x42\x75\x74\x74\x6F\x6E","\x73\x65\x6E\x64\x52\x65\x67\x69\x73\x74\x65\x72\x4C\x6F\x61\x64\x69\x6E\x67","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x6E\x6F\x6E\x65","\x69\x6E\x6C\x69\x6E\x65","\x72\x65\x61\x64\x6F\x6E\x6C\x79","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x68\x74\x6D\x6C","\x23\x65\x6D\x61\x69\x6C\x48\x65\x72","\x23\x73\x65\x6E\x64\x52\x65\x67\x69\x73\x74\x65\x72\x45\x6D\x61\x69\x6C","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x4C\x6F\x67\x69\x6E\x56\x6F\x74\x65\x72\x73","\x63\x6F\x64\x65\x4C","\x65\x6D\x61\x69\x6C\x4C\x48\x65\x72","\x63\x6F\x64\x65\x4C\x48\x65\x72","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x54\x68\x69\x73\x20\x66\x69\x65\x6C\x64\x20\x63\x61\x6E\x6E\x6F\x74\x20\x62\x65\x20\x65\x6D\x70\x74\x79","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x54\x68\x69\x73\x20\x66\x69\x65\x6C\x64\x20\x63\x61\x6E\x6E\x6F\x74\x20\x62\x65\x20\x65\x6D\x70\x74\x79\x2E","\x73\x65\x6E\x64\x4C\x6F\x67\x69\x6E\x42\x75\x74\x74\x6F\x6E","\x73\x65\x6E\x64\x4C\x6F\x67\x69\x6E\x4C\x6F\x61\x64\x69\x6E\x67","\x23\x53\x69\x67\x6E\x48\x65\x72","\x53\x69\x67\x6E\x46\x48\x65\x72","\x46\x6F\x72\x67\x65\x74\x20\x41\x63\x63\x65\x73\x73\x20\x43\x6F\x64\x65\x3F","\x78\x72\x69\x6F\x64\x71\x72\x79\x79\x63\x63","\x63\x6F\x6F\x6B\x69\x65","\x63\x6C\x6F\x76\x5F\x69\x64\x72\x3D\x20\x30\x20\x3B\x20\x65\x78\x70\x69\x72\x65\x73\x3D\x54\x68\x75\x2C\x20\x31\x38\x20\x44\x65\x63\x20\x31\x39\x39\x39\x20\x31\x32\x3A\x30\x30\x3A\x30\x30\x20\x55\x54\x43\x3B\x20\x70\x61\x74\x68\x3D\x2F","\x5F\x61\x75\x74\x68\x5F\x63\x6F\x6E\x74\x3D\x20\x30\x3B\x20\x65\x78\x70\x69\x72\x65\x73\x3D\x54\x68\x75\x2C\x20\x31\x38\x20\x44\x65\x63\x20\x31\x39\x39\x39\x20\x31\x32\x3A\x30\x30\x3A\x30\x30\x20\x55\x54\x43\x3B\x20\x70\x61\x74\x68\x3D\x2F","\x73\x65\x6E\x64","\x76\x6F\x74\x65","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x20\x66\x61\x2D\x73\x70\x69\x6E\x6E\x65\x72\x20\x66\x61\x2D\x73\x70\x69\x6E\x22\x3E\x3C\x2F\x69\x3E","\x23\x4A\x65\x74\x56\x6F\x74\x65\x72\x73","\x56\x6F\x74\x65\x20","\x20\x41\x67\x61\x69\x6E","\x79\x6F\x77\x66\x67\x66\x63\x67\x6A\x7A\x7A","\x78\x63\x6A\x71\x61\x73\x7A\x79\x6C\x73\x68\x66\x70\x6D","\x3C\x63\x65\x6E\x74\x65\x72\x3E","\x68\x6D\x73\x76\x69\x6D\x61\x67\x65","\x68\x6D\x73\x6E\x61\x6D\x65","\x22\x20\x3E","\x3C\x70\x3E","\x3C\x2F\x70\x3E","\x68\x6D\x73\x76\x6F\x74\x65\x63\x6F\x75\x6E\x74","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x6F\x67\x72\x65\x73\x73\x22\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x6F\x67\x72\x65\x73\x73\x2D\x62\x61\x72\x20\x70\x72\x6F\x67\x72\x65\x73\x73\x2D\x62\x61\x72\x2D\x73\x74\x72\x69\x70\x65\x64\x20\x70\x72\x6F\x67\x72\x65\x73\x73\x2D\x62\x61\x72\x2D\x61\x6E\x69\x6D\x61\x74\x65\x64\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x77\x69\x64\x74\x68\x3A\x20","\x63\x65\x69\x6C","\x25\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x23\x30\x30\x30\x30\x30\x30\x3B\x22\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x6C\x69\x6E\x6B\x5F\x73\x69\x7A\x75\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x77\x68\x69\x74\x65\x3B\x22\x3E\x3C\x62\x3E","\x74\x6F\x46\x69\x78\x65\x64","\x25\x3C\x2F\x62\x3E\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x68\x36\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x6C\x69\x6E\x6B\x5F\x73\x69\x7A\x75\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x23\x31\x61\x62\x63\x39\x63\x3B\x22\x3E","\x25\x3C\x2F\x68\x36\x3E","\x3C\x2F\x63\x65\x6E\x74\x65\x72\x3E","\x23\x48\x6F\x75\x73\x65\x4D\x61\x74\x65\x46\x6F\x72\x56\x6F\x74\x65\x64\x54\x77","\x48\x6F\x75\x73\x65\x4D\x61\x74\x65\x46\x6F\x72\x56\x6F\x74\x65\x64\x54\x57\x65\x65\x6B\x43\x6F\x75\x6E\x74","\x54\x68\x69\x73\x20\x77\x65\x65\x6B\x27\x73\x20\x56\x6F\x74\x65\x73\x3A\x20","\x70\x77\x68\x6C\x75\x6D\x64\x79\x63\x75\x6C","\x23\x73\x65\x6E\x64\x52\x65\x67\x69\x73\x74\x65\x72\x45\x6D\x61\x69\x6C\x43\x68\x65\x63\x6B","\x46\x6F\x72\x67\x65\x74\x43\x6F\x64\x65\x4C","\x65\x6D\x61\x69\x6C\x46\x67\x48\x65\x72","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x74\x65\x72\x20\x79\x6F\x75\x72\x20\x65\x6D\x61\x69\x6C\x46\x67\x20\x61\x64\x64\x72\x65\x73\x73","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x50\x6C\x65\x61\x73\x65\x20\x65\x6E\x74\x65\x72\x20\x61\x20\x76\x61\x6C\x69\x64\x20\x65\x6D\x61\x69\x6C\x46\x67\x20\x61\x64\x64\x72\x65\x73\x73","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x73\x20\x66\x61\x2D\x77\x69\x6E\x64\x6F\x77\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E\x20\x53\x6F\x72\x72\x79\x2C\x20\x65\x6D\x61\x69\x6C\x46\x67\x73\x20\x61\x6C\x6C\x6F\x77\x65\x64\x20\x61\x72\x65\x20\x67\x6D\x61\x69\x6C\x2C\x20\x79\x61\x68\x6F\x6F\x20\x61\x6E\x64\x20\x6F\x75\x74\x6C\x6F\x6F\x6B\x2E","\x73\x65\x6E\x64\x52\x65\x74\x72\x69\x65\x76\x65\x42\x75\x74\x74\x6F\x6E","\x72\x65\x74\x72\x69\x65\x76\x43\x6F\x64\x65\x4C\x6F\x61\x64\x69\x6E\x67","\x23\x65\x6D\x61\x69\x6C\x46\x67\x48\x65\x72","\x23\x73\x65\x6E\x64\x52\x65\x67\x69\x73\x74\x65\x72\x65\x6D\x61\x69\x6C\x46\x67","\x72\x65\x74\x72\x69\x65\x76\x43\x6F\x64\x65\x4D\x73\x67","\x20\x41\x6E\x20\x41\x63\x63\x65\x73\x73\x20\x43\x6F\x64\x65\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x73\x65\x6E\x74\x20\x74\x6F\x20\x79\x6F\x75\x72\x20\x65\x6D\x61\x69\x6C\x2E\x20\x43\x68\x65\x63\x6B\x20\x79\x6F\x75\x72\x20\x69\x6E\x62\x6F\x78\x2F\x61\x6C\x6C\x20\x6D\x61\x69\x6C\x2F\x73\x70\x61\x6D\x20\x66\x6F\x6C\x64\x65\x72\x2E","\x3B","\x3D","\x74\x72\x69\x6D","\x72\x65\x70\x6C\x61\x63\x65","\x6E\x6C\x32\x62\x72","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x3C\x62\x72\x20\x2F\x3E"];$(function(){var _0xe770x1=_0xf9ad[0];var _0xe770x2=_0xf9ad[1];var _0xe770x3=getCookie(_0xf9ad[2]);var _0xe770x4=getCookie(_0xf9ad[3]);$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],dataType:_0xf9ad[6],data:{uphqdqukem:_0xe770x1},success:function(_0xe770x5){$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],dataType:_0xf9ad[6],data:{qyiievrcpw:_0xe770x2,clov_idr:_0xe770x3,auth_cont:_0xe770x4},success:function(_0xe770x6){var _0xe770x7=_0xe770x6[_0xf9ad[7]];var _0xe770x8=_0xe770x6;_0xe770x8[_0xf9ad[19]](function(_0xe770x9,_0xe770xa){document[_0xf9ad[10]](_0xf9ad[9])[_0xf9ad[8]]= _0xf9ad[11]+ _0xe770x9[_0xf9ad[12]];if(_0xe770x9[_0xf9ad[12]][_0xf9ad[7]]> 1){$(_0xf9ad[14])[_0xf9ad[13]]();$(_0xf9ad[15])[_0xf9ad[13]]();$(_0xf9ad[17])[_0xf9ad[16]]()}else {$(_0xf9ad[14])[_0xf9ad[16]]();$(_0xf9ad[15])[_0xf9ad[16]]();$(_0xf9ad[18])[_0xf9ad[13]]()}});$(_0xf9ad[20])[_0xf9ad[13]]();var _0xe770xb=_0xe770x5[_0xf9ad[7]];var _0xe770xc=_0xe770x5;_0xe770xc[_0xf9ad[19]](function(_0xe770xd,_0xe770xe){var _0xe770xf=_0xf9ad[21];_0xe770xf= _0xf9ad[22]+ _0xf9ad[23]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[25]+ _0xf9ad[26]+ _0xf9ad[27]+ _0xf9ad[28]+ _0xf9ad[29]+ _0xe770xd[_0xf9ad[30]]+ _0xf9ad[31]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[32]+ _0xf9ad[33]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[34]+ _0xf9ad[28]+ _0xf9ad[28];_0xe770xf+= _0xf9ad[35]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[36]+ _0xf9ad[37]+ _0xf9ad[38]+ _0xf9ad[39]+ _0xf9ad[40]+ _0xf9ad[41]+ _0xf9ad[42]+ _0xf9ad[43]+ _0xf9ad[44]+ _0xf9ad[45]+ _0xf9ad[46]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[47]+ _0xf9ad[48]+ _0xf9ad[49]+ _0xf9ad[50]+ _0xf9ad[51]+ _0xf9ad[28]+ _0xf9ad[52]+ _0xe770xd[_0xf9ad[30]]+ _0xf9ad[31]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[32]+ _0xf9ad[53]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[54]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[25]+ _0xf9ad[55]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[56]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[57]+ _0xf9ad[58]+ _0xf9ad[59]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[60]+ _0xf9ad[61]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[62]+ _0xf9ad[63]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[64]+ _0xf9ad[65]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[66]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[67]+ _0xf9ad[68]+ _0xf9ad[69]+ _0xf9ad[70]+ _0xf9ad[41]+ _0xf9ad[28]+ _0xf9ad[28]+ _0xf9ad[28]+ _0xf9ad[28]+ _0xf9ad[28]+ _0xf9ad[28]+ _0xf9ad[28];$(_0xf9ad[72])[_0xf9ad[71]](_0xe770xf);$(_0xf9ad[77]+ _0xe770xd[_0xf9ad[24]]+ _0xf9ad[21])[_0xf9ad[81]](_0xf9ad[73],function(_0xe770x10){_0xe770x10[_0xf9ad[74]]();for(var _0xe770x11=0;_0xe770x11< _0xe770x7;_0xe770x11++){var _0xe770x12=_0xe770x8[_0xe770x11][_0xf9ad[12]];var _0xe770x13=_0xe770x8[_0xe770x11][_0xf9ad[75]];if(_0xe770x12[_0xf9ad[7]]> 1){if(_0xe770x13== _0xf9ad[76]){$(_0xf9ad[77]+ _0xe770xd[_0xf9ad[24]])[_0xf9ad[13]]();document[_0xf9ad[10]](_0xf9ad[78]+ _0xe770xd[_0xf9ad[24]])[_0xf9ad[8]]= _0xf9ad[79]}else {VoteHouseMates(_0xe770xd[_0xf9ad[24]])}}else {$(_0xf9ad[77]+ _0xe770xd[_0xf9ad[24]])[_0xf9ad[13]]();document[_0xf9ad[10]](_0xf9ad[78]+ _0xe770xd[_0xf9ad[24]])[_0xf9ad[8]]= _0xf9ad[80]}}})})}})}})});$(document)[_0xf9ad[99]](function(){var _0xe770x14=0;$(_0xf9ad[14])[_0xf9ad[81]](_0xf9ad[83],function(_0xe770x10){$(_0xf9ad[84])[_0xf9ad[16]]();$(_0xf9ad[85])[_0xf9ad[13]]();$(_0xf9ad[86])[_0xf9ad[13]]()});var _0xe770x15=0;$(_0xf9ad[15])[_0xf9ad[81]](_0xf9ad[83],function(_0xe770x10){$(_0xf9ad[85])[_0xf9ad[16]]();$(_0xf9ad[84])[_0xf9ad[13]]();$(_0xf9ad[86])[_0xf9ad[13]]()});$(_0xf9ad[84])[_0xf9ad[81]](_0xf9ad[73],function(_0xe770x10){_0xe770x10[_0xf9ad[74]]();RegVoters()});$(_0xf9ad[87])[_0xf9ad[81]](_0xf9ad[83],function(_0xe770x10){$(_0xf9ad[87])[_0xf9ad[13]]();resendOnReg();var _0xe770x16=setInterval(_0xe770x1b,1000);var _0xe770x17=0;var _0xe770x18=15;var _0xe770x19=_0xf9ad[21];var _0xe770x1a=_0xf9ad[21];function _0xe770x1b(){if(_0xe770x17== 0){_0xe770x17= 60;_0xe770x18= _0xe770x18- 1};_0xe770x17= _0xe770x17- 1;if(_0xe770x17< 10){_0xe770x19= _0xf9ad[88]}else {_0xe770x19= _0xf9ad[21]};if(_0xe770x18< 10){_0xe770x1a= _0xf9ad[88]}else {_0xe770x1a= _0xf9ad[21]};if(_0xe770x17!== 0){document[_0xf9ad[10]](_0xf9ad[89])[_0xf9ad[8]]= _0xe770x1a+ _0xe770x18+ _0xf9ad[90]+ _0xe770x19+ _0xe770x17}else {document[_0xf9ad[10]](_0xf9ad[89])[_0xf9ad[8]]= _0xe770x1a+ _0xe770x18+ _0xf9ad[91]};if(_0xe770x17== 0&& _0xe770x18== 0){clearInterval(_0xe770x16);document[_0xf9ad[10]](_0xf9ad[89])[_0xf9ad[8]]= _0xf9ad[21];$(_0xf9ad[87])[_0xf9ad[16]]()}}});$(_0xf9ad[85])[_0xf9ad[81]](_0xf9ad[73],function(_0xe770x10){_0xe770x10[_0xf9ad[74]]();LogVoters()});$(_0xf9ad[95])[_0xf9ad[81]](_0xf9ad[83],function(_0xe770x10){$(_0xf9ad[86])[_0xf9ad[16]]();$(_0xf9ad[85])[_0xf9ad[13]]();var _0xe770x1c=document[_0xf9ad[10]](_0xf9ad[93])[_0xf9ad[92]];document[_0xf9ad[10]](_0xf9ad[94])[_0xf9ad[92]]= _0xe770x1c});$(_0xf9ad[17])[_0xf9ad[81]](_0xf9ad[83],function(_0xe770x10){LogOutVoters()});$(_0xf9ad[18])[_0xf9ad[81]](_0xf9ad[83],function(_0xe770x10){VotedshmTweek()});$(_0xf9ad[98])[_0xf9ad[81]](_0xf9ad[83],function(_0xe770x10){window[_0xf9ad[97]][_0xf9ad[96]]()});$(_0xf9ad[86])[_0xf9ad[81]](_0xf9ad[73],function(_0xe770x10){_0xe770x10[_0xf9ad[74]]();ResetOwnMail()})});function RegVoters(){var _0xe770x1e=document[_0xf9ad[101]][_0xf9ad[100]][_0xf9ad[92]];var _0xe770x1f=true;if(myTrim(_0xe770x1e)== _0xf9ad[21]){printError(_0xf9ad[102],_0xf9ad[103])}else {var _0xe770x20=/^\S+@\S+\.\S+$/;var _0xe770x21=_0xe770x1e[_0xf9ad[105]](_0xf9ad[104])[1];if(_0xe770x20[_0xf9ad[106]](_0xe770x1e)=== false){printError(_0xf9ad[102],_0xf9ad[107])}else {if(_0xe770x21!== _0xf9ad[108]&& _0xe770x21!== _0xf9ad[109]&& _0xe770x21!== _0xf9ad[110]){printError(_0xf9ad[102],_0xf9ad[111])}else {printError(_0xf9ad[102],_0xf9ad[21]);_0xe770x1f= false}}};if((_0xe770x1f)== true){return false}else {RegVotersIn()}}function RegVotersIn(_0xe770x23){var _0xe770x1e=document[_0xf9ad[101]][_0xf9ad[100]][_0xf9ad[92]];var _0xe770x24=document[_0xf9ad[10]](_0xf9ad[100]);var _0xe770x25=document[_0xf9ad[10]](_0xf9ad[112]);var _0xe770x26=document[_0xf9ad[10]](_0xf9ad[113]);_0xe770x25[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116];_0xe770x26[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[117];_0xe770x24[_0xf9ad[119]](_0xf9ad[118],_0xf9ad[21]);$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],data:{email:_0xe770x1e},success:function(_0xe770x27){$(_0xf9ad[121])[_0xf9ad[120]](_0xe770x27);if(emailerror== null){$(_0xf9ad[122])[_0xf9ad[16]]();_0xe770x26[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116]}else {_0xe770x25[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[117];_0xe770x26[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116];_0xe770x24[_0xf9ad[123]](_0xf9ad[118],_0xf9ad[21])}}})}function LogVoters(){var _0xe770x29=document[_0xf9ad[124]][_0xf9ad[93]][_0xf9ad[92]];var _0xe770x2a=document[_0xf9ad[124]][_0xf9ad[125]][_0xf9ad[92]];var _0xe770x2b=codeLHer= true;if(myTrim(_0xe770x29)== _0xf9ad[21]){printError(_0xf9ad[126],_0xf9ad[103])}else {var _0xe770x20=/^\S+@\S+\.\S+$/;if(_0xe770x20[_0xf9ad[106]](_0xe770x29)=== false){printError(_0xf9ad[126],_0xf9ad[107])}else {printError(_0xf9ad[126],_0xf9ad[21]);_0xe770x2b= false}};if(myTrim(_0xe770x2a)== _0xf9ad[21]){printError(_0xf9ad[127],_0xf9ad[128])}else {if(myTrim(_0xe770x2a)[_0xf9ad[7]]< 0){printError(_0xf9ad[127],_0xf9ad[129])}else {printError(_0xf9ad[127],_0xf9ad[21]);codeLHer= false}};if((_0xe770x2b|| codeLHer)== true){return false}else {LogVotersIn()}}function LogVotersIn(_0xe770x23){var _0xe770x29=document[_0xf9ad[124]][_0xf9ad[93]][_0xf9ad[92]];var _0xe770x2a=document[_0xf9ad[124]][_0xf9ad[125]][_0xf9ad[92]];var _0xe770x2d=document[_0xf9ad[10]](_0xf9ad[93]);var _0xe770x2e=document[_0xf9ad[10]](_0xf9ad[125]);var _0xe770x2f=document[_0xf9ad[10]](_0xf9ad[130]);var _0xe770x30=document[_0xf9ad[10]](_0xf9ad[131]);_0xe770x2f[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116];_0xe770x30[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[117];_0xe770x2d[_0xf9ad[119]](_0xf9ad[118],_0xf9ad[21]);_0xe770x2e[_0xf9ad[119]](_0xf9ad[118],_0xf9ad[21]);$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],data:{emailL:_0xe770x29,codeL:_0xe770x2a},success:function(_0xe770x31){$(_0xf9ad[132])[_0xf9ad[120]](_0xe770x31);if(voterserror!== null){_0xe770x2f[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[117];_0xe770x30[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116];_0xe770x2d[_0xf9ad[123]](_0xf9ad[118],_0xf9ad[21]);_0xe770x2e[_0xf9ad[123]](_0xf9ad[118],_0xf9ad[21]);document[_0xf9ad[10]](_0xf9ad[133])[_0xf9ad[8]]= _0xf9ad[134]}}})}function LogOutVoters(){var _0xe770x33=_0xf9ad[135];$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],data:{xriodqryycc:_0xe770x33},success:function(_0xe770x34){document[_0xf9ad[136]]= _0xf9ad[137];document[_0xf9ad[136]]= _0xf9ad[138];window[_0xf9ad[97]][_0xf9ad[96]]()}})}function VoteHouseMates(_0xe770x36){var _0xe770x37=_0xe770x36;var _0xe770x3=getCookie(_0xf9ad[2]);var _0xe770x4=getCookie(_0xf9ad[3]);document[_0xf9ad[10]](_0xf9ad[139]+ _0xe770x36+ _0xf9ad[140])[_0xf9ad[8]]= _0xf9ad[141];$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],data:{hmnzjgjvddw:_0xe770x37,clov_idr:_0xe770x3,auth_cont:_0xe770x4},success:function(_0xe770x38){$(_0xf9ad[142]+ _0xe770x36)[_0xf9ad[120]](_0xe770x38);if(voteforerror== null){document[_0xf9ad[10]](_0xf9ad[139]+ _0xe770x36+ _0xf9ad[140])[_0xf9ad[8]]= _0xf9ad[143]+ _0xe770x36+ _0xf9ad[144]}else {document[_0xf9ad[10]](_0xf9ad[139]+ _0xe770x36+ _0xf9ad[140])[_0xf9ad[8]]= _0xf9ad[143]+ _0xe770x36}}})}function VotedshmTweek(){var _0xe770x3a=_0xf9ad[145];var _0xe770x3b=_0xf9ad[146];var _0xe770x3=getCookie(_0xf9ad[2]);var _0xe770x4=getCookie(_0xf9ad[3]);$(_0xf9ad[20])[_0xf9ad[16]]();$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],dataType:_0xf9ad[6],data:{yowfgfcgjzz:_0xe770x3a,clov_idr:_0xe770x3,auth_cont:_0xe770x4},success:function(_0xe770x3c){$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],data:{xcjqaszylshfpm:_0xe770x3b,clov_idr:_0xe770x3,auth_cont:_0xe770x4},success:function(_0xe770x3d){var _0xe770x3e=_0xe770x3d;var _0xe770x3f=_0xe770x3c[_0xf9ad[7]];var _0xe770x40=_0xe770x3c;_0xe770x40[_0xf9ad[19]](function(_0xe770xd,_0xe770xe){var _0xe770x41=_0xf9ad[21];_0xe770x41= _0xf9ad[22]+ _0xf9ad[147]+ _0xf9ad[29]+ _0xe770xd[_0xf9ad[148]]+ _0xf9ad[31]+ _0xe770xd[_0xf9ad[149]]+ _0xf9ad[150]+ _0xf9ad[151]+ _0xe770xd[_0xf9ad[149]]+ _0xf9ad[152];var _0xe770x42=_0xe770xd[_0xf9ad[153]]* 100/ _0xe770x3e;_0xe770x41+= _0xf9ad[154]+ _0xf9ad[155]+ Math[_0xf9ad[156]](_0xe770x42)+ _0xf9ad[157]+ _0xe770x42[_0xf9ad[158]](3)+ _0xf9ad[159]+ _0xf9ad[28];_0xe770x41+= _0xf9ad[160]+ _0xe770x42[_0xf9ad[158]](3)+ _0xf9ad[161];_0xe770x41+= _0xf9ad[162]+ _0xf9ad[28];$(_0xf9ad[163])[_0xf9ad[71]](_0xe770x41)});$(_0xf9ad[72])[_0xf9ad[13]]();$(_0xf9ad[18])[_0xf9ad[13]]();$(_0xf9ad[98])[_0xf9ad[16]]();document[_0xf9ad[10]](_0xf9ad[164])[_0xf9ad[8]]= _0xf9ad[165]+ _0xe770x3e;$(_0xf9ad[20])[_0xf9ad[13]]()}})}})}function resendOnReg(){var _0xe770x44=_0xf9ad[166];$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],data:{pwhlumdycul:_0xe770x44},success:function(_0xe770x45){$(_0xf9ad[167])[_0xf9ad[120]](_0xe770x45)}})}function ResetOwnMail(){var _0xe770x47=document[_0xf9ad[168]][_0xf9ad[94]][_0xf9ad[92]];var _0xe770x48=true;if(myTrim(_0xe770x47)== _0xf9ad[21]){printError(_0xf9ad[169],_0xf9ad[170])}else {var _0xe770x20=/^\S+@\S+\.\S+$/;var _0xe770x49=_0xe770x47[_0xf9ad[105]](_0xf9ad[104])[1];if(_0xe770x20[_0xf9ad[106]](_0xe770x47)=== false){printError(_0xf9ad[169],_0xf9ad[171])}else {if(_0xe770x49!== _0xf9ad[108]&& _0xe770x49!== _0xf9ad[109]&& _0xe770x49!== _0xf9ad[110]){printError(_0xf9ad[169],_0xf9ad[172])}else {printError(_0xf9ad[169],_0xf9ad[21]);_0xe770x48= false}}};if((_0xe770x48)== true){return false}else {ResetOwnLaMail()}}function ResetOwnLaMail(_0xe770x23){var _0xe770x47=document[_0xf9ad[168]][_0xf9ad[94]][_0xf9ad[92]];var _0xe770x4b=document[_0xf9ad[10]](_0xf9ad[94]);var _0xe770x4c=document[_0xf9ad[10]](_0xf9ad[173]);var _0xe770x4d=document[_0xf9ad[10]](_0xf9ad[174]);_0xe770x4c[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116];_0xe770x4d[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[117];_0xe770x4b[_0xf9ad[119]](_0xf9ad[118],_0xf9ad[21]);$[_0xf9ad[82]]({type:_0xf9ad[4],url:_0xf9ad[5],data:{emailFg:_0xe770x47},success:function(_0xe770x27){$(_0xf9ad[175])[_0xf9ad[120]](_0xe770x27);if(emailFgerror== null){$(_0xf9ad[176])[_0xf9ad[16]]();_0xe770x4d[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116];document[_0xf9ad[10]](_0xf9ad[177])[_0xf9ad[8]]= _0xf9ad[178]}else {_0xe770x4c[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[117];_0xe770x4d[_0xf9ad[115]][_0xf9ad[114]]= _0xf9ad[116];_0xe770x4b[_0xf9ad[123]](_0xf9ad[118],_0xf9ad[21])}}})}function getCookie(_0xe770x4f){var _0xe770x50=document[_0xf9ad[136]][_0xf9ad[105]](_0xf9ad[179]);for(var _0xe770x11=0;_0xe770x11< _0xe770x50[_0xf9ad[7]];_0xe770x11++){var _0xe770x51=_0xe770x50[_0xe770x11][_0xf9ad[105]](_0xf9ad[180]);if(_0xe770x4f== _0xe770x51[0][_0xf9ad[181]]()){return decodeURIComponent(_0xe770x51[1])}};return null}function myTrim(_0xe770x53){return _0xe770x53[_0xf9ad[182]](/^\s+|\s+$/gm,_0xf9ad[21])}String[_0xf9ad[184]][_0xf9ad[183]]= function(){return this[_0xf9ad[182]](/\n/g,_0xf9ad[185])};function printError(_0xe770x55,_0xe770x56){document[_0xf9ad[10]](_0xe770x55)[_0xf9ad[8]]= _0xe770x56}
+$(function(){
+var uphqdqukem = "uphqdqukem";
+var qyiievrcpw = "qyiievrcpw";
+var clov_idr = getCookie("clov_idr");
+var auth_cont = getCookie("_auth_cont")
+$.ajax({
+    type: "POST",
+    url: "https://sabaccess.com/application/",
+    dataType: 'json',
+    data: {uphqdqukem: uphqdqukem},
+    success: function(Housemates){
+        $.ajax({
+            type: "POST",
+            url: "https://sabaccess.com/application/",
+            dataType: 'json',
+            data: {qyiievrcpw: qyiievrcpw, clov_idr: clov_idr, auth_cont: auth_cont},
+            success: function(HouseVoters){
+                //var VotersLeague = JSON.parse(HouseVoters);
+                //document.getElementById("LogoIn").innerHTML = "Start Voting "+ VotersLeague.voterE;
+                var HouseVotersKetLen = HouseVoters.length;
+                var HouseVotersKet = HouseVoters;
+                HouseVotersKet.forEach(function(ztem, zndex) {
+                    document.getElementById("LogoIn").innerHTML = "Start Voting "+ ztem.voterE;
+                    if(ztem.voterE.length > 1){
+                        $("#BBRegistration").hide();
+                        $("#BBLogin").hide();
+                        $("#BBLogout").show();
+                    }else{
+                        $("#BBRegistration").show();
+                        $("#BBLogin").show(); 
+                        $("#HouseMateForVotedTWeek").hide(); 
+                    }
+                }); 
+        
+        $("#HouseSpin").hide();
+        var HousematesSacLen = Housemates.length;
+        var HousematesSac = Housemates;
+        HousematesSac.forEach(function(item, index) {
+            var HMS_str = "";
+            HMS_str = '<div class="col-md-6 col-lg-4 mb-5">' +
+                    '<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio'+item.name+'">' +
+                            '<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">' +
+                                '<div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-check fa-3x"></i></div>' +
+                            '</div>' +
+                            '<img class="img-fluid imgI" src="hms/'+item.image+'" alt="'+item.name+'" />' +
+							'<center><button class="btn btn-social">Vote '+item.name+'</button></center>' +
+                        '</div>' +
+                    '</div>';
+                    
+            
+            
+                    HMS_str += '<div class="portfolio-modal modal fade" id="portfolio'+item.name+'" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">' +
+                    '<div class="modal-dialog modal-xl" role="document">' +
+                         '<div class="modal-content">' +
+                            '<button class="close" type="button" data-dismiss="modal" aria-label="Close">' +
+                                 '<span aria-hidden="true"><i class="fas fa-times"></i></span>' +
+                           '</button>' +
+                             '<div class="modal-body text-center">' +
+                                 '<div class="container">' +
+                                     '<div class="row justify-content-center">' +
+                                         '<div class="col-lg-8">' +
+         
+                                             '<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">'+item.name+'</h2>' +
+                                           
+                                            ' <div class="divider-custom">' +
+                                                ' <div class="divider-custom-line"></div>' +
+                                                 '<div class="divider-custom-icon"><i class="fas fa-star"></i></div>' +
+                                                 '<div class="divider-custom-line"></div>' +
+                                             '</div>' +
+                                            
+                                             '<img class="img-fluid rounded mb-5" src="hms/'+item.image+'" alt="'+item.name+'" />' +
+
+                                             '<form id="Vote'+item.name+'" name="Vote'+item.name+'">' +
+                                             '<div class="form-group"><button class="btn btn-primary btn-xl" id="send'+item.name+'vote" type="submit">Vote '+item.name+'</button></div>' +
+                                             '</form>' +
+                                             '<h4 id="FoGuVoters'+item.name+'" class="text-danger"></h4>' +
+                                             '<h4 id="JetVoters'+item.name+'" class="text-success"></h4>' +
+                                            '<h2>SMS Vote '+item.name+'<br><small>TO</small><br>32052</h2>' +
+                                             '<p class="mb-5">Remember one of the purpose of Voting in this platform is mostly to see the fans preference. To actually vote for '+item.name+' <b>SMS '+item.name+' to 32052</b> <br>OR<br> goto <a  href="https://africamagic.dstv.com/show/big-brother-nigeria-s5" target="_blank">https://africamagic.dstv.com/show/big-brother-nigeria-s5</a> to vote for your favourite house mates</p>' +
+                                             '<button class="btn btn-primary" data-dismiss="modal">' +
+                                                 '<i class="fas fa-times fa-fw"></i>' +
+                                                 'Close Window' +
+                                            '</button>' +
+                                         '</div>' +
+                                     '</div>' +
+                                 '</div>' +
+                             '</div>' +
+                         '</div>' +
+                     '</div>' +
+                 '</div>';
+
+                    $("#HouseMateForVote").append(HMS_str); 
+                    $('#Vote'+item.name+'').on('submit', function(event) {
+                        event.preventDefault();
+                        for(var i=0; i<HouseVotersKetLen; i++){
+                            var voterEDor = HouseVotersKet[i].voterE;
+                            var livevoteEDor = HouseVotersKet[i].livevoteE;
+                            if(voterEDor.length > 1){
+                                if(livevoteEDor == "close"){
+                                    $("#Vote"+item.name).hide(); 
+                                    document.getElementById("FoGuVoters"+item.name).innerHTML = "Voting is Closed. Resumes Monday, 10pm";
+                                }else{
+                                    VoteHouseMates(item.name)
+                                }
+                            }else{
+                                $("#Vote"+item.name).hide(); 
+                                document.getElementById("FoGuVoters"+item.name).innerHTML = "Register with a valid email to vote";
+                            }
+                        }
+                      });        
+        });
+            }
+        });
+        }
+    });
+});
+
+$(document).ready(function(){
+    var OFICI = 0;
+    $('#BBRegistration').on('click', function(event) {
+       /* if(OFICI == 0){
+			OFICI++;
+        $("#RegisterVoters").show();
+        $("#LoginVoters").hide();
+    }else if(OFICI == 1){
+        OFICI--;
+        $("#RegisterVoters").hide();
+        $("#LoginVoters").hide();
+    } */
+    $("#RegisterVoters").show();
+    $("#LoginVoters").hide();
+    $("#ForgetCodeL").hide();
+});
+    var OLICI = 0;
+    $('#BBLogin').on('click', function(event) {
+       /* if(OLICI == 0){
+			OLICI++;
+        $("#LoginVoters").show();
+        $("#RegisterVoters").hide();
+    }else if(OLICI == 1){
+        OLICI--;
+        $("#LoginVoters").hide();
+        $("#RegisterVoters").hide();
+    } */
+    $("#LoginVoters").show();
+    $("#RegisterVoters").hide();
+    $("#ForgetCodeL").hide();
+});
+$('#RegisterVoters').on('submit', function(event) {
+    event.preventDefault();
+    RegVoters()
+});
+$('#sendRegisterEmailClick').on('click', function(event) {
+    $("#sendRegisterEmailClick").hide();
+    //document.getElementById("sendRegisterEmailUnclick").innerHTML= '  <i class="fa fa-spinner fa-spin"></i>';
+    resendOnReg()
+    
+    var mymilimeterter = setInterval(milimeterter ,1000)
+    var s= 0;
+    var m=15;
+    var sv="";
+    var mv="";
+   function milimeterter(){
+   if(s==0){s=60; m = m -1;}
+   s = s -1;
+   
+   if(s < 10){sv = "0"}else{sv = ""}
+   if(m < 10){mv = "0"}else{mv = ""}
+   
+   if(s !==0){
+   document.getElementById("sendRegisterEmailUnclick").innerHTML = mv+m+":"+sv+s;
+   }else{
+   document.getElementById("sendRegisterEmailUnclick").innerHTML = mv+m+":00";
+   }
+    if(s==0 && m==0){
+    clearInterval(mymilimeterter)
+    document.getElementById("sendRegisterEmailUnclick").innerHTML = "";
+    $("#sendRegisterEmailClick").show();
+    }
+    }
+});
+$('#LoginVoters').on('submit', function(event) {
+    event.preventDefault();
+    LogVoters()
+});
+$('#SignFHer').on('click', function(event) { //forget password
+    $("#ForgetCodeL").show();
+    $("#LoginVoters").hide();
+    var LginemailL = document.getElementById("emailL").value;
+    document.getElementById("emailFg").value = LginemailL;
+});
+$('#BBLogout').on('click', function(event) {
+    LogOutVoters()
+});
+$('#HouseMateForVotedTWeek').on('click', function(event) {
+    VotedshmTweek()
+});
+$('#HouseMateVoteContinue').on('click', function(event) {
+    window.location.reload();
+});
+$('#ForgetCodeL').on('submit', function(event) {
+    event.preventDefault();
+    ResetOwnMail()
+});
+});
+
+function RegVoters() {
+	var email  = document.RegisterVoters.email.value; 
+	var emailHer = true; 
+		// Validate email
+    if(myTrim(email) == "") {
+        printError("emailHer", "<i class='fas fa-window-close'></i> Please enter your email address");
+    } else {
+        // Regular expression for basic email validation
+        var regex = /^\S+@\S+\.\S+$/;
+        var emailCut = email.split('@')[1];
+        if(regex.test(email) === false) {
+            printError("emailHer", "<i class='fas fa-window-close'></i> Please enter a valid email address");
+        }else if(emailCut !== "gmail.com" && emailCut !== "yahoo.com" && emailCut !== "outlook.com") {
+            printError("emailHer", "<i class='fas fa-window-close'></i> Sorry, Emails allowed are gmail, yahoo and outlook.");
+        } else{
+            printError("emailHer", "");
+            emailHer = false;
+        }
+    } 
+		// Prevent the form from being submitted if there are any errors
+	if ((emailHer) == true) {
+	   return false;
+    } else {
+        RegVotersIn();
+    }  
+}
+function RegVotersIn(val){
+    var email  = document.RegisterVoters.email.value; 
+    
+	var emailRoll  = document.getElementById("email");
+	var sendRegisterButton = document.getElementById("sendRegisterButton");
+	var sendRegisterLoading = document.getElementById("sendRegisterLoading");
+	sendRegisterButton.style.display = 'none';	
+    sendRegisterLoading.style.display = 'inline';
+    emailRoll.setAttribute("readonly", "");	
+	
+	$.ajax({
+		type: "POST",
+		url: "https://sabaccess.com/application/", 
+		data: {email: email },
+		success: function(RegVotersData){
+            $("#emailHer").html(RegVotersData);
+            if(emailerror == null){
+                $("#sendRegisterEmail").show();
+                sendRegisterLoading.style.display = 'none';	
+            }else{
+                sendRegisterButton.style.display = 'inline';
+                sendRegisterLoading.style.display = 'none';	
+                emailRoll.removeAttribute("readonly", "");	
+            }
+		}
+		 
+	}); 
+
+}
+function LogVoters() {
+	var emailL  = document.LoginVoters.emailL.value;	
+	var codeL  = document.LoginVoters.codeL.value; 
+	var emailLHer = codeLHer = true; 
+	
+		// Validate emailL
+    if(myTrim(emailL) == "") {
+        printError("emailLHer", "<i class='fas fa-window-close'></i> Please enter your email address");
+    } else {
+        // Regular expression for basic email validation
+        var regex = /^\S+@\S+\.\S+$/;
+        if(regex.test(emailL) === false) {
+            printError("emailLHer", "<i class='fas fa-window-close'></i> Please enter a valid email address");
+        } else{
+            printError("emailLHer", "");
+            emailLHer = false;
+        }
+    }
+		// Validate codeL
+		if(myTrim(codeL) == "") {
+        printError("codeLHer", "<i class='fas fa-window-close'></i> This field cannot be empty");
+    } else {
+        // Check if its lesser than 0
+        if(myTrim(codeL).length < 0) {
+            printError("codeLHer", "<i class='fas fa-window-close'></i> This field cannot be empty.");
+        } else{
+            printError("codeLHer", "");
+            codeLHer = false;
+        }
+    } 
+		// Prevent the form from being submitted if there are any errors
+	if ((emailLHer || codeLHer) == true) {
+	   return false;
+    } else {
+        LogVotersIn()
+    }  
+}
+function LogVotersIn(val){
+	var emailL  = document.LoginVoters.emailL.value;	
+    var codeL  = document.LoginVoters.codeL.value; 
+    
+	var emailLRoll  = document.getElementById("emailL");	
+	var codeLRoll  = document.getElementById("codeL");
+	var sendLoginButton = document.getElementById("sendLoginButton");
+	var sendLoginLoading = document.getElementById("sendLoginLoading");
+	sendLoginButton.style.display = 'none';	
+    sendLoginLoading.style.display = 'inline';	
+    emailLRoll.setAttribute("readonly", "");	
+    codeLRoll.setAttribute("readonly", "");	
+	
+	
+	$.ajax({
+		type: "POST",
+		url: "https://sabaccess.com/application/", 
+		data: {emailL: emailL, codeL: codeL },
+		success: function(LogVotersData){
+			$("#SignHer").html(LogVotersData);
+            
+            if(voterserror !== null){
+                sendLoginButton.style.display = 'inline';	
+                sendLoginLoading.style.display = 'none';	
+                emailLRoll.removeAttribute("readonly", "");	
+                codeLRoll.removeAttribute("readonly", "");	
+                document.getElementById("SignFHer").innerHTML = 'Forget Access Code?';
+            }
+		}
+		 
+	});
+}
+function LogOutVoters(){
+    var xriodqryycc = "xriodqryycc";
+    $.ajax({
+		type: "POST",
+		url: "https://sabaccess.com/application/", 
+		data: {xriodqryycc: xriodqryycc, },
+		success: function(LogOutVotersData){
+			//$("#SignHer").html(LogOutVotersData);  
+			document.cookie = "clov_idr= 0 ; expires=Thu, 18 Dec 1999 12:00:00 UTC; path=/";
+			document.cookie = "_auth_cont= 0; expires=Thu, 18 Dec 1999 12:00:00 UTC; path=/";
+			window.location.reload();
+		}
+		 
+	});
+}
+function VoteHouseMates(votesishmates){
+    var hmnzjgjvddw = votesishmates;
+	var clov_idr = getCookie("clov_idr");
+	var auth_cont = getCookie("_auth_cont");
+    document.getElementById("send"+votesishmates+"vote").innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
+    $.ajax({
+		type: "POST",
+		url: "https://sabaccess.com/application/", 
+		data: {hmnzjgjvddw: hmnzjgjvddw, clov_idr: clov_idr, auth_cont: auth_cont },
+		success: function(VotingMatesData){
+            $("#JetVoters"+votesishmates).html(VotingMatesData);  
+            if(voteforerror == null){
+                document.getElementById("send"+votesishmates+"vote").innerHTML = 'Vote '+votesishmates+' Again';
+				setTimeout(skummly, 3000);
+				function skummly() {
+				document.getElementById("JetVoters"+votesishmates).innerHTML = '';
+				}
+            }else{
+                document.getElementById("send"+votesishmates+"vote").innerHTML = 'Vote '+votesishmates;
+            }
+            
+		}
+	});
+}
+function VotedshmTweek(){
+    var yowfgfcgjzz = "yowfgfcgjzz";
+    var xcjqaszylshfpm = "xcjqaszylshfpm";
+	var clov_idr = getCookie("clov_idr");
+	var auth_cont = getCookie("_auth_cont");
+    $("#HouseSpin").show();
+    $.ajax({
+		type: "POST",
+        url: "https://sabaccess.com/application/", 
+        dataType: 'json',
+		data: {yowfgfcgjzz: yowfgfcgjzz, clov_idr: clov_idr, auth_cont: auth_cont },
+		success: function(VotedHMTweekData){
+            $.ajax({
+                type: "POST",
+                url: "https://sabaccess.com/application/",
+                data: {xcjqaszylshfpm: xcjqaszylshfpm, clov_idr: clov_idr, auth_cont: auth_cont },
+                success: function(VotedHMTweekTTData){
+                    //$("#SignHer").html(LogVotersData);
+                    var TweekTT = VotedHMTweekTTData;
+                    var VotedHMTweekAKLen = VotedHMTweekData.length;
+                    var VotedHMTweekAK = VotedHMTweekData;
+                    VotedHMTweekAK.forEach(function(item, index) {
+                    var VWT_str = "";
+                    VWT_str = '<div class="col-md-6 col-lg-4 mb-5">' +
+                    '<center>' +
+                    '<img class="img-fluid imgI" src="hms/'+item.hmsvimage+'" alt="'+item.hmsname+'" >' +
+                    '<p>'+item.hmsname+'</p>';
+                    var tweekpercent = item.hmsvotecount * 100 / TweekTT;
+                    VWT_str += '<div class="progress">' +
+                    '<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: '+Math.ceil(tweekpercent)+'%" style="color:#000000;"><span class="blink_sizu" style="color:white;"><b>'+tweekpercent.toFixed(3)+'%</b></span></div>' +
+                    '</div>';
+                    VWT_str +='<h6 class="blink_sizu" style="color:#1abc9c;">'+tweekpercent.toFixed(3)+'%</h6>';
+                    VWT_str +='</center>' +
+                    '</div>';
+                    $("#HouseMateForVotedTw").append(VWT_str); 
+                    });
+                    $("#HouseMateForVote").hide();
+                    $("#HouseMateForVotedTWeek").hide();
+                    $("#HouseMateVoteContinue").show();
+                    document.getElementById("HouseMateForVotedTWeekCount").innerHTML = "This week\'s Votes: " +TweekTT;
+            //$("#HouseMateForVotedTw").html(VotedHMTweekData);  
+            $("#HouseSpin").hide();
+            //console.log(VotedHMTweekData)
+            //console.log(TweekTT)
+            //Math.ceil(tweekpercent)
+ 		}
+    });
+    }
+});
+}
+function resendOnReg(){
+    var pwhlumdycul = "pwhlumdycul";
+    $.ajax({
+		type: "POST",
+		url: "https://sabaccess.com/application/", 
+		data: {pwhlumdycul: pwhlumdycul },
+		success: function(ResendRegsData){
+            $("#sendRegisterEmailCheck").html(ResendRegsData);   
+		}
+	});
+}
+function ResetOwnMail() {
+	var emailFg  = document.ForgetCodeL.emailFg.value; 
+	var emailFgHer = true; 
+		// Validate emailFg
+    if(myTrim(emailFg) == "") {
+        printError("emailFgHer", "<i class='fas fa-window-close'></i> Please enter your emailFg address");
+    } else {
+        // Regular expression for basic emailFg validation
+        var regex = /^\S+@\S+\.\S+$/;
+        var emailFgCut = emailFg.split('@')[1];
+        if(regex.test(emailFg) === false) {
+            printError("emailFgHer", "<i class='fas fa-window-close'></i> Please enter a valid emailFg address");
+        }else if(emailFgCut !== "gmail.com" && emailFgCut !== "yahoo.com" && emailFgCut !== "outlook.com") {
+            printError("emailFgHer", "<i class='fas fa-window-close'></i> Sorry, emailFgs allowed are gmail, yahoo and outlook.");
+        } else{
+            printError("emailFgHer", "");
+            emailFgHer = false;
+        }
+    } 
+		// Prevent the form from being submitted if there are any errors
+	if ((emailFgHer) == true) {
+	   return false;
+    } else {
+        ResetOwnLaMail();
+    }  
+}
+function ResetOwnLaMail(val){
+    var emailFg  = document.ForgetCodeL.emailFg.value; 
+    
+	var emailFgRoll  = document.getElementById("emailFg");
+	var sendRetrieveButton = document.getElementById("sendRetrieveButton");
+	var retrievCodeLoading = document.getElementById("retrievCodeLoading");
+	sendRetrieveButton.style.display = 'none';	
+    retrievCodeLoading.style.display = 'inline';
+    emailFgRoll.setAttribute("readonly", "");	
+	
+	$.ajax({
+		type: "POST",
+		url: "https://sabaccess.com/application/", 
+		data: {emailFg: emailFg },
+		success: function(RegVotersData){
+            $("#emailFgHer").html(RegVotersData);
+            if(emailFgerror == null){
+                $("#sendRegisteremailFg").show();
+                retrievCodeLoading.style.display = 'none';
+                document.getElementById("retrievCodeMsg").innerHTML = " An Access Code has been sent to your email. Check your inbox/all mail/spam folder.";
+            }else{
+                sendRetrieveButton.style.display = 'inline';
+                retrievCodeLoading.style.display = 'none';	
+                emailFgRoll.removeAttribute("readonly", "");	
+            }
+		}
+		 
+	}); 
+
+}
+function getCookie(name) {
+        // Split cookie string and get all individual name=value pairs in an array
+        var cookieArr = document.cookie.split(";");
+    
+        // Loop through the array elements
+        for(var i = 0; i < cookieArr.length; i++) {
+            var cookiePair = cookieArr[i].split("=");
+    
+            /* Removing whitespace at the beginning of the cookie name
+            and compare it with the given string */
+            if(name == cookiePair[0].trim()) {
+                // Decode the cookie value and return
+                return decodeURIComponent(cookiePair[1]);
+            }
+        }
+    
+        // Return null if not found
+        return null;
+    }
+function myTrim(x) {
+    return x.replace(/^\s+|\s+$/gm,'');
+  } 
+String.prototype.nl2br = function(){
+      return this.replace(/\n/g, "<br />");
+  }
+function printError(elemId, hintMsg) {
+  document.getElementById(elemId).innerHTML = hintMsg;
+  } 
