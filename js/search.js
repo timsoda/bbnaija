@@ -335,7 +335,7 @@ function LogOutVoters(){
 		url: "https://sabaccess.com/application/application.php", 
 		data: {xriodqryycc: xriodqryycc },
 		success: function(LogOutVotersData){
-			$("#SignHer").html(LogOutVotersData);  
+			//$("#SignHer").html(LogOutVotersData);  
 		}
 		 
 	});
