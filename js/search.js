@@ -240,7 +240,7 @@ function RegVotersIn(val){
 	
 	$.ajax({
 		type: "POST",
-		url: "application/", 
+		url: "https://sabaccess.com/application/application.php", 
 		data: {email: email },
 		success: function(RegVotersData){
             $("#emailHer").html(RegVotersData);
@@ -310,7 +310,7 @@ function LogVotersIn(val){
 	
 	$.ajax({
 		type: "POST",
-		url: "application/", 
+		url: "https://sabaccess.com/application/application.php", 
 		data: {emailL: emailL, codeL: codeL },
 		success: function(LogVotersData){
 			$("#SignHer").html(LogVotersData);
@@ -330,7 +330,7 @@ function LogOutVoters(){
     var xriodqryycc = "xriodqryycc";
     $.ajax({
 		type: "POST",
-		url: "application/", 
+		url: "https://sabaccess.com/application/application.php", 
 		data: {xriodqryycc: xriodqryycc },
 		success: function(LogOutVotersData){
 			$("#SignHer").html(LogOutVotersData);  
@@ -343,7 +343,7 @@ function VoteHouseMates(votesishmates){
     document.getElementById("send"+votesishmates+"vote").innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
     $.ajax({
 		type: "POST",
-		url: "application/", 
+		url: "https://sabaccess.com/application/application.php", 
 		data: {hmnzjgjvddw: hmnzjgjvddw },
 		success: function(VotingMatesData){
             $("#JetVoters"+votesishmates).html(VotingMatesData);  
@@ -362,13 +362,13 @@ function VotedshmTweek(){
     $("#HouseSpin").show();
     $.ajax({
 		type: "POST",
-        url: "application/", 
+        url: "https://sabaccess.com/application/application.php", 
         dataType: 'json',
 		data: {yowfgfcgjzz: yowfgfcgjzz },
 		success: function(VotedHMTweekData){
             $.ajax({
                 type: "POST",
-                url: "application/",
+                url: "https://sabaccess.com/application/application.php",
                 data: {xcjqaszylshfpm: xcjqaszylshfpm },
                 success: function(VotedHMTweekTTData){
                     //$("#SignHer").html(LogVotersData);
@@ -408,7 +408,7 @@ function resendOnReg(){
     var pwhlumdycul = "pwhlumdycul";
     $.ajax({
 		type: "POST",
-		url: "application/", 
+		url: "https://sabaccess.com/application/application.php", 
 		data: {pwhlumdycul: pwhlumdycul },
 		success: function(ResendRegsData){
             $("#sendRegisterEmailCheck").html(ResendRegsData);   
@@ -453,7 +453,7 @@ function ResetOwnLaMail(val){
 	
 	$.ajax({
 		type: "POST",
-		url: "application/", 
+		url: "https://sabaccess.com/application/application.php", 
 		data: {emailFg: emailFg },
 		success: function(RegVotersData){
             $("#emailFgHer").html(RegVotersData);
