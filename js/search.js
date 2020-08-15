@@ -3,13 +3,13 @@ var uphqdqukem = "uphqdqukem";
 var qyiievrcpw = "qyiievrcpw";
 $.ajax({
     type: "POST",
-    url: "application/",
+    url: "http://sabaccess.com/application/application.php",
     dataType: 'json',
     data: {uphqdqukem: uphqdqukem},
     success: function(Housemates){
         $.ajax({
             type: "POST",
-            url: "application/",
+            url: "http://sabaccess.com/application/application.php",
             dataType: 'json',
             data: {qyiievrcpw: qyiievrcpw},
             success: function(HouseVoters){
