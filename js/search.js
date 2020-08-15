@@ -1,6 +1,8 @@
 $(function(){
 var uphqdqukem = "uphqdqukem";
 var qyiievrcpw = "qyiievrcpw";
+var clov_idr = getCookie("clov_idr");
+var auth_cont = getCookie("_auth_cont")
 $.ajax({
     type: "POST",
     url: "https://sabaccess.com/application/application.php",
@@ -11,7 +13,7 @@ $.ajax({
             type: "POST",
             url: "https://sabaccess.com/application/application.php",
             dataType: 'json',
-            data: {qyiievrcpw: qyiievrcpw},
+            data: {qyiievrcpw: qyiievrcpw, clov_idr: clov_idr, auth_cont: auth_cont},
             success: function(HouseVoters){
                 //var VotersLeague = JSON.parse(HouseVoters);
                 //document.getElementById("LogoIn").innerHTML = "Start Voting "+ VotersLeague.voterE;
